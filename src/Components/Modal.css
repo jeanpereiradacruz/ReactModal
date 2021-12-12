@@ -1,0 +1,79 @@
+.modalBackground {
+    height: 100vh;
+    width: 100vw;
+    background-color: orangered;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modalContainer {
+    height: 300px;
+    width: 500px;
+    display: flex;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    border-radius: 10px;
+    flex-direction: column;
+}
+
+.modalContainer .closeButtonArea{
+    width: 500px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.closeButton {
+    height: 30px;
+    width: 30px;
+    background-color: red;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.modalContainer .title h1 {
+    color: red;
+}
+
+.modalContainer .body {
+    padding: 15px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+
+.modalContainer .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modalContainer .footer button {
+    width: 160px;
+    height: 40px;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 20px;
+}
+
+.modalContainer .footer .cancelButton {
+    background-color: red;
+}
+
+.modalContainer .footer .confirmButton {
+    background-color: green;
+}
